@@ -13,7 +13,7 @@ MAINTAINER Jonas Enge
 #### Begin setup ####
 
 # Installs docker
-RUN apk add --update --no-cache libreoffice
+RUN apk add --update --no-cache libreoffice ttf-freefont ttf-opensans ttf-ubuntu-font-family ttf-inconsolata
 
 # Bundle app source
 COPY . /src

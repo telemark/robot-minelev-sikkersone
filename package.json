@@ -53,11 +53,12 @@
     "axios": "0.18.0",
     "crypto-props": "1.0.2",
     "dotenv": "6.0.0",
+    "generate-docx": "2.0.2",
     "jsonwebtoken": "8.3.0",
     "p360": "3.1.1",
     "tfk-saksbehandling-minelev-templates": "2.3.0",
     "tfk-schools-info": "2.1.1",
-    "uuid": "3.3.2",
+    "uuid-random": "1.0.6",
     "winston": "2.4.3",
     "winston-papertrail": "1.0.5"
   }

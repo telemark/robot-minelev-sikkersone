@@ -1,18 +1,8 @@
-###########################################################
-#
-# Dockerfile
-#
-###########################################################
-
-# Setting the base to nodejs 10
 FROM mhart/alpine-node:10
-
-# Maintainer
-MAINTAINER Jonas Enge
 
 #### Begin setup ####
 
-# Installs docker
+# Installs libreoffice
 RUN apk add --update --no-cache libreoffice ttf-freefont ttf-opensans ttf-ubuntu-font-family ttf-inconsolata
 
 # Bundle app source

@@ -56,7 +56,7 @@
     "generate-docx": "2.0.2",
     "jsonwebtoken": "8.3.0",
     "p360": "3.1.1",
-    "tfk-saksbehandling-minelev-templates": "2.3.2",
+    "tfk-saksbehandling-minelev-templates": "2.3.3",
     "tfk-schools-info": "2.1.4",
     "uuid-random": "1.0.6",
     "winston": "2.4.3",

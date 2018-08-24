@@ -1,4 +1,5 @@
 const getNextFileFromQueue = require('./lib/steps/get-next-file-from-queue')
+const saveToDone = require('./lib/steps/save-to-done')
 const decryptData = require('./lib/steps/decrypt-data')
 const generateDocument = require('./lib/steps/generate-document')
 const convertToPdf = require('./lib/steps/convert-to-pdf')
@@ -11,6 +12,7 @@ const logger = require('./lib/logger')
 logger('info', ['index', 'start'])
 
 getNextFileFromQueue()
+  .then(saveToDone)
   .then(decryptData)
   .then(generateDocument)
   .then(convertToPdf)

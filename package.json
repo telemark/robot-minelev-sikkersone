@@ -54,7 +54,7 @@
     "crypto-props": "2.0.0",
     "dotenv": "6.1.0",
     "generate-docx": "2.1.0",
-    "jsonwebtoken": "8.3.0",
+    "jsonwebtoken": "8.4.0",
     "p360": "3.1.1",
     "tfk-saksbehandling-minelev-templates": "2.3.3",
     "tfk-schools-info": "2.1.4",

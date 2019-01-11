@@ -23,7 +23,7 @@ if (Object.keys(dependencies).length > 0) {
 }
 
 if (Object.keys(devDependencies).length > 0) {
-  Object.keys(dependencies).filter(isDropped).forEach((dependency) => {
+  Object.keys(devDependencies).filter(isDropped).forEach((dependency) => {
     test(`${dependency} loads ok`, t => {
       const module = require(dependency)
       t.truthy(module)

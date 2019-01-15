@@ -53,7 +53,7 @@
     "axios": "0.18.0",
     "crypto-props": "2.0.1",
     "dotenv": "6.2.0",
-    "generate-docx": "2.1.0",
+    "generate-docx": "2.1.1",
     "jsonwebtoken": "8.4.0",
     "p360": "3.1.2",
     "tfk-saksbehandling-minelev-templates": "2.3.3",

@@ -63,6 +63,3 @@ typings/
 
 # Env
 .env
-
-# Package-lock
-package-lock.json

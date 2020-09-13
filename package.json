@@ -52,7 +52,7 @@
   "dependencies": {
     "axios": "0.20.0",
     "crypto-props": "2.0.3",
-    "document-templates": "1.4.12",
+    "document-templates": "1.4.14",
     "dotenv": "8.2.0",
     "generate-docx": "2.1.1",
     "jsonwebtoken": "8.5.1",
